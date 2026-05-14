@@ -1,0 +1,76 @@
+{
+  "snapshot_version": "1.0.0",
+  "source": "PRS Legislative Research — State Budget Analyses",
+  "estimate_type": "BE",
+  "fiscal_year": "2024-25",
+  "extraction_method": "Web-fetched headline numbers from each state's brief landing page",
+  "extraction_date": "2026-05-14",
+  "notes": "Snapshot is checked into git for reproducibility. Re-running the scraper updates this file. PRS publishes briefs at budget-tabling time (Feb-March), so this contains BE figures only.",
+  "states": {
+    "KA": {
+      "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2024-25",
+      "values": {
+        "gsdp_inr_crore":                2809063,
+        "total_revenue_exp":             290531,
+        "total_capital_outlay":          52903,
+        "own_tax_revenue":               189893,
+        "total_receipts_excl_borrowings": 263428,
+        "total_expenditure_excl_debt":   346409,
+        "revenue_deficit":               27354,
+        "fiscal_deficit":                82981
+      }
+    },
+    "TN": {
+      "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2024-25",
+      "values": {
+        "gsdp_inr_crore":                3155096,
+        "total_revenue_exp":             348289,
+        "total_capital_outlay":          47681,
+        "own_tax_revenue":               195173,
+        "total_receipts_excl_borrowings": 303814,
+        "total_expenditure_excl_debt":   412504,
+        "revenue_deficit":               49279,
+        "fiscal_deficit":                108690
+      }
+    },
+    "AP": {
+      "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2024-25",
+      "values": {
+        "gsdp_inr_crore":                1640581,
+        "total_revenue_exp":             235917,
+        "total_capital_outlay":          32713,
+        "own_tax_revenue":               109789,
+        "total_receipts_excl_borrowings": 292629,
+        "total_expenditure_excl_debt":   294427,
+        "revenue_deficit":               34743,
+        "fiscal_deficit":                68743
+      }
+    },
+    "TG": {
+      "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2024-25",
+      "values": {
+        "gsdp_inr_crore":                1647324,
+        "total_revenue_exp":             220945,
+        "total_capital_outlay":          33487,
+        "own_tax_revenue":               138181,
+        "total_receipts_excl_borrowings": 224802,
+        "total_expenditure_excl_debt":   274058,
+        "revenue_deficit":               297,
+        "fiscal_deficit":                49255
+      }
+    },
+    "KL": {
+      "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2024-25",
+      "values": {
+        "gsdp_inr_crore":                1311437,
+        "total_revenue_exp":             166501,
+        "total_capital_outlay":          15663,
+        "own_tax_revenue":               84884,
+        "total_receipts_excl_borrowings": 246845,
+        "total_expenditure_excl_debt":   255386,
+        "revenue_deficit":               27846,
+        "fiscal_deficit":                44529
+      }
+    }
+  }
+}

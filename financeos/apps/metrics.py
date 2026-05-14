@@ -778,15 +778,33 @@ def load_signal_values(
     fiscal_year: str,
     estimate_type: str,
 ) -> Dict[Tuple[str, str], float]:
-    """Return {(state, major_head_code): value} for the given slice."""
+    """Return {(state, major_head_code): value} for the given slice.
+
+    When a cell has values from multiple sources, RBI is preferred over PRS
+    (precedence rule: source_id starting with 'rbi.' wins). The runner-up
+    rows still exist in the store and are visible via the cross-source
+    disagreement check (financeos.apps.cross_source).
+    """
     placeholders = ",".join("?" for _ in states)
     q = f"""
-        SELECT state, major_head_code, value
-        FROM budget_signals
-        WHERE state IN ({placeholders})
-          AND fiscal_year = ?
-          AND estimate_type = ?
-          AND signal = 'amount'
+        SELECT state, major_head_code, value FROM (
+            SELECT state, major_head_code, value, source_id,
+                   ROW_NUMBER() OVER (
+                     PARTITION BY state, fiscal_year, major_head_code,
+                                  account_type, signal, estimate_type
+                     ORDER BY CASE
+                       WHEN source_id LIKE 'rbi.%' THEN 1
+                       WHEN source_id LIKE 'prs.%' THEN 2
+                       ELSE 3
+                     END
+                   ) AS rn
+            FROM budget_signals
+            WHERE state IN ({placeholders})
+              AND fiscal_year = ?
+              AND estimate_type = ?
+              AND signal = 'amount'
+        )
+        WHERE rn = 1
     """
     out: Dict[Tuple[str, str], float] = {}
     for r in conn.execute(q, (*states, fiscal_year, estimate_type)):

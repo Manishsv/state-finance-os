@@ -83,6 +83,27 @@ def main(argv: Optional[List[str]] = None) -> int:
                     help="Comma-separated fiscal years YYYY-YY")
     hb.add_argument("--db", default=None, help="Override DB path")
 
+    pi = sub.add_parser("prs-ingest",
+                        help="Ingest PRS budget brief headlines (cross-validator)")
+    pi.add_argument("--states", default="KA,TN,AP,TG,KL",
+                    help="Comma-separated state codes (default: South-5)")
+    pi.add_argument("--years", required=True,
+                    help="Comma-separated fiscal years YYYY-YY (must have a snapshot JSON)")
+    pi.add_argument("--db", default=None, help="Override DB path")
+
+    cs = sub.add_parser("cross-source-check",
+                        help="List cells where RBI and PRS (or any sources) disagree")
+    cs.add_argument("--states", default="KA,TN,AP,TG,KL",
+                    help="Comma-separated state codes")
+    cs.add_argument("--year", required=True, help="Fiscal year YYYY-YY")
+    cs.add_argument("--estimate-type", default=None, choices=["BE", "RE", "ACT", None],
+                    help="Filter to one estimate type (default: all)")
+    cs.add_argument("--threshold-pct", type=float, default=1.0,
+                    help="Show cells with spread ≥ this %% (default: 1.0)")
+    cs.add_argument("--out", default=None,
+                    help="Write report to this path (default: print to stdout)")
+    cs.add_argument("--db", default=None, help="Override DB path")
+
     rep = sub.add_parser("report", help="Compute metrics, rank peers, write per-state briefs and a comparison CSV")
     rep.add_argument("--states", default="KA,TN,AP,TG,KL", help="Comma-separated state codes")
     rep.add_argument("--year", required=True, help="Fiscal year YYYY-YY")
@@ -112,6 +133,10 @@ def main(argv: Optional[List[str]] = None) -> int:
         return _cmd_rbi_ingest(args)
     if args.cmd == "rbi-handbook-ingest":
         return _cmd_rbi_handbook_ingest(args)
+    if args.cmd == "prs-ingest":
+        return _cmd_prs_ingest(args)
+    if args.cmd == "cross-source-check":
+        return _cmd_cross_source_check(args)
     if args.cmd == "report":
         return _cmd_report(args)
 
@@ -238,6 +263,60 @@ def _cmd_report(args) -> int:
     print(f"Done: {len(findings)} findings across {len(by_state)} states.")
     if advisor:
         print(f"  LLM tokens: {total_cost_in} in / {total_cost_out} out")
+    return 0
+
+
+def _cmd_prs_ingest(args) -> int:
+    from financeos.drivers.connectors.prs.budget_brief import PrsBudgetBriefDriver
+    from financeos.drivers.registries.loader import load_registries
+    from financeos.drivers.store.ingestor import Ingestor
+
+    states = [s.strip() for s in args.states.split(",") if s.strip()]
+    years = [y.strip() for y in args.years.split(",") if y.strip()]
+    db_path = Path(args.db) if args.db else Path("data/budgets/knowledge.sqlite")
+    conn = connect(db_path)
+    init_schema(conn)
+    try:
+        regs = load_registries()
+        ingestor = Ingestor(conn, regs)
+        driver = PrsBudgetBriefDriver(ingestor=ingestor, registries=regs)
+        cr = driver.conformance_check()
+        if not cr.ok:
+            for f in cr.failures: print(f"  [FAIL] {f}")
+            return 2
+        print(f"Ingesting PRS briefs for {states} years={years} ...")
+        written = driver.fetch(states=states, fiscal_years=years)
+        print(f"Done. Rows written: {written:,}")
+    finally:
+        conn.close()
+    return 0
+
+
+def _cmd_cross_source_check(args) -> int:
+    import json as _json
+    from financeos.apps.cross_source import find_disagreements, render_disagreement_report
+
+    states = [s.strip() for s in args.states.split(",") if s.strip()]
+    db_path = Path(args.db) if args.db else Path("data/budgets/knowledge.sqlite")
+    conn = connect(db_path)
+    try:
+        disagreements = find_disagreements(
+            conn, states=states, fiscal_year=args.year,
+            estimate_type=args.estimate_type, threshold_pct=args.threshold_pct,
+        )
+        # Build code -> description lookup for nicer rendering
+        mh_path = Path(__file__).resolve().parent.parent.parent / "drivers" / "registries" / "major_heads.json"
+        mh_data = _json.loads(mh_path.read_text())
+        descs = {e["code"]: e.get("rbi_head") or e.get("description", "") for e in mh_data["major_heads"]}
+        report = render_disagreement_report(disagreements, head_code_to_description=descs)
+    finally:
+        conn.close()
+
+    if args.out:
+        Path(args.out).write_text(report)
+        print(f"Wrote {args.out}")
+    else:
+        print(report)
     return 0
 
 

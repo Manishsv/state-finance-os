@@ -17,6 +17,14 @@
       "builtin_class": "financeos.drivers.connectors.rbi.handbook:RbiHandbookDriver",
       "cadence_hint": "annual",
       "notes": "RBI Handbook of Statistics on Indian States, Table 21 (GSDP) + Census 2011 population projections"
+    },
+    {
+      "domain": "prs_brief",
+      "trusted": true,
+      "trust_level": "core",
+      "builtin_class": "financeos.drivers.connectors.prs.budget_brief:PrsBudgetBriefDriver",
+      "cadence_hint": "annual",
+      "notes": "PRS Legislative Research state budget briefs — used as cross-validator (RBI primary, PRS secondary). Snapshot JSONs ship with the driver."
     }
   ]
 }
