@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "notes": "Drivers are added here when they are ready to be loaded.",
+  "drivers": [
+    {
+      "domain": "rbi_estates",
+      "trusted": true,
+      "trust_level": "core",
+      "builtin_class": "financeos.drivers.connectors.rbi.state_finances:RbiStateFinancesDriver",
+      "cadence_hint": "annual",
+      "notes": "RBI State Finances: A Study of Budgets, e-STATES database, edition 2025-26"
+    },
+    {
+      "domain": "rbi_handbook",
+      "trusted": true,
+      "trust_level": "core",
+      "builtin_class": "financeos.drivers.connectors.rbi.handbook:RbiHandbookDriver",
+      "cadence_hint": "annual",
+      "notes": "RBI Handbook of Statistics on Indian States, Table 21 (GSDP) + Census 2011 population projections"
+    }
+  ]
+}

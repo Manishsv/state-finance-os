@@ -1,0 +1,2778 @@
+{
+  "schema_version": "1.0.0",
+  "lmmha_version": "partial-v0",
+  "lmmha_published_at": null,
+  "source": "Hand-curated from CGA List of Major and Minor Heads of Account, partial coverage.",
+  "notes": "v0 starter set. As drivers encounter unknown codes, add them here rather than passing them silently. See spec/MAJOR_HEADS.md.",
+  "major_heads": [
+    {
+      "code": "0020",
+      "description": "Corporation Tax",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0021",
+      "description": "Taxes on Income other than Corporation Tax",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0028",
+      "description": "Other Taxes on Income and Expenditure",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0029",
+      "description": "Land Revenue",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0030",
+      "description": "Stamps and Registration Fees",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0039",
+      "description": "State Excise",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0040",
+      "description": "Taxes on Sales, Trade etc.",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0041",
+      "description": "Taxes on Vehicles",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0042",
+      "description": "Taxes on Goods and Passengers",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0045",
+      "description": "Other Taxes and Duties on Commodities and Services",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0049",
+      "description": "Interest Receipts",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0050",
+      "description": "Dividends and Profits",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0070",
+      "description": "Other Administrative Services",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0075",
+      "description": "Miscellaneous General Services",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0202",
+      "description": "Education, Sports, Art and Culture (Receipts)",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "0210",
+      "description": "Medical and Public Health (Receipts)",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "1601",
+      "description": "Grants-in-aid from Central Government",
+      "section": "receipt_revenue"
+    },
+    {
+      "code": "2011",
+      "description": "Parliament/State/UT Legislatures",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2014",
+      "description": "Administration of Justice",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2015",
+      "description": "Elections",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2049",
+      "description": "Interest Payments",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2055",
+      "description": "Police",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2071",
+      "description": "Pensions and Other Retirement Benefits",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2202",
+      "description": "General Education",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2210",
+      "description": "Medical and Public Health",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2211",
+      "description": "Family Welfare",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2215",
+      "description": "Water Supply and Sanitation",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2216",
+      "description": "Housing",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2217",
+      "description": "Urban Development",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2235",
+      "description": "Social Security and Welfare",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2245",
+      "description": "Relief on account of Natural Calamities",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2401",
+      "description": "Crop Husbandry",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2415",
+      "description": "Agricultural Research and Education",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2702",
+      "description": "Minor Irrigation",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2705",
+      "description": "Command Area Development",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2801",
+      "description": "Power",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2851",
+      "description": "Village and Small Industries",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "2852",
+      "description": "Industries",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "3054",
+      "description": "Roads and Bridges",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "3055",
+      "description": "Road Transport",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "3604",
+      "description": "Compensation and Assignments to Local Bodies and PRIs",
+      "section": "expenditure_revenue"
+    },
+    {
+      "code": "4202",
+      "description": "Capital Outlay on Education, Sports, Art and Culture",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "4210",
+      "description": "Capital Outlay on Medical and Public Health",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "4215",
+      "description": "Capital Outlay on Water Supply and Sanitation",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "4217",
+      "description": "Capital Outlay on Urban Development",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "4401",
+      "description": "Capital Outlay on Crop Husbandry",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "4700",
+      "description": "Capital Outlay on Major Irrigation",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "4701",
+      "description": "Capital Outlay on Medium Irrigation",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "4702",
+      "description": "Capital Outlay on Minor Irrigation",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "4801",
+      "description": "Capital Outlay on Power Projects",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "5054",
+      "description": "Capital Outlay on Roads and Bridges",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "5055",
+      "description": "Capital Outlay on Road Transport",
+      "section": "expenditure_capital"
+    },
+    {
+      "code": "6003",
+      "description": "Internal Debt of the State Government",
+      "section": "public_debt"
+    },
+    {
+      "code": "6004",
+      "description": "Loans and Advances from the Central Government",
+      "section": "public_debt"
+    },
+    {
+      "code": "9001",
+      "description": "I.A.1.i: Agricultural Income Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.1.i: Agricultural Income Tax"
+    },
+    {
+      "code": "9002",
+      "description": "I.A.1.ii: Taxes on Professions,Trades, Callings and Employment [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.1.ii: Taxes on Professions,Trades, Callings and Employment"
+    },
+    {
+      "code": "9003",
+      "description": "I.A.1: Taxes on Income (i+ii) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.1: Taxes on Income (i+ii)"
+    },
+    {
+      "code": "9004",
+      "description": "I.A.2.i: Land Revenue [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.2.i: Land Revenue"
+    },
+    {
+      "code": "9005",
+      "description": "I.A.2.ii: Stamps and Registration Fees [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.2.ii: Stamps and Registration Fees"
+    },
+    {
+      "code": "9006",
+      "description": "I.A.2.iii: Urban Immovable Property Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.2.iii: Urban Immovable Property Tax"
+    },
+    {
+      "code": "9007",
+      "description": "I.A.2: Taxes on Property and Capital Transactions (i to iii) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.2: Taxes on Property and Capital Transactions (i to iii)"
+    },
+    {
+      "code": "9008",
+      "description": "I.A.3.i.a: Central Sales Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.i.a: Central Sales Tax"
+    },
+    {
+      "code": "9009",
+      "description": "I.A.3.i.b: State Sales Tax/VAT [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.i.b: State Sales Tax/VAT"
+    },
+    {
+      "code": "9010",
+      "description": "I.A.3.i.c: Sales Tax on Motor Spirit and Lubricants [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.i.c: Sales Tax on Motor Spirit and Lubricants"
+    },
+    {
+      "code": "9011",
+      "description": "I.A.3.i.d: Surcharge on Sales Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.i.d: Surcharge on Sales Tax"
+    },
+    {
+      "code": "9012",
+      "description": "I.A.3.i.e: Receipts of Turnover Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.i.e: Receipts of Turnover Tax"
+    },
+    {
+      "code": "9013",
+      "description": "I.A.3.i.f: Other Receipts [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.i.f: Other Receipts"
+    },
+    {
+      "code": "9014",
+      "description": "I.A.3.i: Sales Tax (a to e) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.i: Sales Tax (a to e)"
+    },
+    {
+      "code": "9015",
+      "description": "I.A.3.ii: State Excise [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.ii: State Excise"
+    },
+    {
+      "code": "9016",
+      "description": "I.A.3.iii: Taxes on Vehicles [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.iii: Taxes on Vehicles"
+    },
+    {
+      "code": "9017",
+      "description": "I.A.3.iv: Taxes on Goods and Passengers [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.iv: Taxes on Goods and Passengers"
+    },
+    {
+      "code": "9018",
+      "description": "I.A.3.v: Taxes and Duties on Electricity [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.v: Taxes and Duties on Electricity"
+    },
+    {
+      "code": "9019",
+      "description": "I.A.3.vi: Entertainment Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.vi: Entertainment Tax"
+    },
+    {
+      "code": "9020",
+      "description": "I.A.3.vii: State Goods and Services Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.vii: State Goods and Services Tax"
+    },
+    {
+      "code": "9021",
+      "description": "I.A.3.viii: Other Taxes and Duties [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3.viii: Other Taxes and Duties"
+    },
+    {
+      "code": "9022",
+      "description": "I.A.3: Taxes on Commodities and Services (i to vii) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A.3: Taxes on Commodities and Services (i to vii)"
+    },
+    {
+      "code": "9023",
+      "description": "I.A: State's Own Tax Revenue (1 to 3) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.A: State's Own Tax Revenue (1 to 3)"
+    },
+    {
+      "code": "9024",
+      "description": "I.B.i: Central Goods and Services Tax (CGST) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.i: Central Goods and Services Tax (CGST)"
+    },
+    {
+      "code": "9025",
+      "description": "I.B.ii: Corporation Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.ii: Corporation Tax"
+    },
+    {
+      "code": "9026",
+      "description": "I.B.iii: Income Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.iii: Income Tax"
+    },
+    {
+      "code": "9027",
+      "description": "I.B.iv: Estate Duty [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.iv: Estate Duty"
+    },
+    {
+      "code": "9028",
+      "description": "I.B.v: Other Taxes on Income and Expenditure [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.v: Other Taxes on Income and Expenditure"
+    },
+    {
+      "code": "9029",
+      "description": "I.B.vi: Taxes on Wealth [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.vi: Taxes on Wealth"
+    },
+    {
+      "code": "9030",
+      "description": "I.B.vii: Customs [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.vii: Customs"
+    },
+    {
+      "code": "9031",
+      "description": "I.B.viii: Union Excise Duties [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.viii: Union Excise Duties"
+    },
+    {
+      "code": "9032",
+      "description": "I.B.x: IGST [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.x: IGST"
+    },
+    {
+      "code": "9033",
+      "description": "I.B.xi: Service Tax [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.xi: Service Tax"
+    },
+    {
+      "code": "9034",
+      "description": "I.B.xii: Other Taxes and Duties on Commodities and Services [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B.xii: Other Taxes and Duties on Commodities and Services"
+    },
+    {
+      "code": "9035",
+      "description": "I.B: Share in Central Taxes (i to ix) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I.B: Share in Central Taxes (i to ix)"
+    },
+    {
+      "code": "9036",
+      "description": "I: TAX REVENUE (A+B) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "I: TAX REVENUE (A+B)"
+    },
+    {
+      "code": "9037",
+      "description": "II.C.1: Interest Receipts [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.1: Interest Receipts"
+    },
+    {
+      "code": "9038",
+      "description": "II.C.2: Dividends and Profits [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.2: Dividends and Profits"
+    },
+    {
+      "code": "9039",
+      "description": "II.C.3.0: of which: State Lotteries [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.3.0: of which: State Lotteries"
+    },
+    {
+      "code": "9040",
+      "description": "II.C.3: General Services [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.3: General Services"
+    },
+    {
+      "code": "9041",
+      "description": "II.C.4.i: Education, Sports, Art and Culture [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.i: Education, Sports, Art and Culture"
+    },
+    {
+      "code": "9042",
+      "description": "II.C.4.ii: Medical and Public Health [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.ii: Medical and Public Health"
+    },
+    {
+      "code": "9043",
+      "description": "II.C.4.iii: Family Welfare [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.iii: Family Welfare"
+    },
+    {
+      "code": "9044",
+      "description": "II.C.4.iv: Water Supply and Sanitation [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.iv: Water Supply and Sanitation"
+    },
+    {
+      "code": "9045",
+      "description": "II.C.4.ix: Others [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.ix: Others"
+    },
+    {
+      "code": "9046",
+      "description": "II.C.4.v: Housing [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.v: Housing"
+    },
+    {
+      "code": "9047",
+      "description": "II.C.4.vi: Urban Development [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.vi: Urban Development"
+    },
+    {
+      "code": "9048",
+      "description": "II.C.4.vii: Labour and Employment [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.vii: Labour and Employment"
+    },
+    {
+      "code": "9049",
+      "description": "II.C.4.viii: Social Security and Welfare [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4.viii: Social Security and Welfare"
+    },
+    {
+      "code": "9050",
+      "description": "II.C.4: Social Services ( i to ix) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.4: Social Services ( i to ix)"
+    },
+    {
+      "code": "9051",
+      "description": "II.C.5: Fiscal Services [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.5: Fiscal Services"
+    },
+    {
+      "code": "9052",
+      "description": "II.C.6.i: Crop Husbandry [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.i: Crop Husbandry"
+    },
+    {
+      "code": "9053",
+      "description": "II.C.6.ii: Animal Husbandry [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.ii: Animal Husbandry"
+    },
+    {
+      "code": "9054",
+      "description": "II.C.6.iii: Fisheries [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.iii: Fisheries"
+    },
+    {
+      "code": "9055",
+      "description": "II.C.6.iv: Forestry and Wildlife [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.iv: Forestry and Wildlife"
+    },
+    {
+      "code": "9056",
+      "description": "II.C.6.ix: Minor Irrigation [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.ix: Minor Irrigation"
+    },
+    {
+      "code": "9057",
+      "description": "II.C.6.v: Plantations [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.v: Plantations"
+    },
+    {
+      "code": "9058",
+      "description": "II.C.6.vi: Co-operation [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.vi: Co-operation"
+    },
+    {
+      "code": "9059",
+      "description": "II.C.6.vii: Other Agricultural Programmes [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.vii: Other Agricultural Programmes"
+    },
+    {
+      "code": "9060",
+      "description": "II.C.6.viii: Major and Medium Irrigation Projects [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.viii: Major and Medium Irrigation Projects"
+    },
+    {
+      "code": "9061",
+      "description": "II.C.6.x: Power [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.x: Power"
+    },
+    {
+      "code": "9062",
+      "description": "II.C.6.xi: Petroleum [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.xi: Petroleum"
+    },
+    {
+      "code": "9063",
+      "description": "II.C.6.xii: Village and Small Industries [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.xii: Village and Small Industries"
+    },
+    {
+      "code": "9064",
+      "description": "II.C.6.xiii: Industries [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.xiii: Industries"
+    },
+    {
+      "code": "9065",
+      "description": "II.C.6.xiv: Ports and Light Houses [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.xiv: Ports and Light Houses"
+    },
+    {
+      "code": "9066",
+      "description": "II.C.6.xv: Road Transport [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.xv: Road Transport"
+    },
+    {
+      "code": "9067",
+      "description": "II.C.6.xvi: Tourism [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.xvi: Tourism"
+    },
+    {
+      "code": "9068",
+      "description": "II.C.6.xvii: Others [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6.xvii: Others"
+    },
+    {
+      "code": "9069",
+      "description": "II.C.6: Economic Services  ( i to xvii ) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C.6: Economic Services  ( i to xvii )"
+    },
+    {
+      "code": "9070",
+      "description": "II.C: State's Own Non-Tax Revenue (1 to 6) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.C: State's Own Non-Tax Revenue (1 to 6)"
+    },
+    {
+      "code": "9071",
+      "description": "II.D.1.0: of which: Advance release of Plan Assistance for Natural Calamities [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.1.0: of which: Advance release of Plan Assistance for Natural Calamities"
+    },
+    {
+      "code": "9072",
+      "description": "II.D.1: State Plan Schemes [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.1: State Plan Schemes"
+    },
+    {
+      "code": "9073",
+      "description": "II.D.2: Central Plan Schemes [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.2: Central Plan Schemes"
+    },
+    {
+      "code": "9074",
+      "description": "II.D.3: Centrally Sponsored Schemes [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.3: Centrally Sponsored Schemes"
+    },
+    {
+      "code": "9075",
+      "description": "II.D.4: NEC/ Special Plan Scheme [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.4: NEC/ Special Plan Scheme"
+    },
+    {
+      "code": "9076",
+      "description": "II.D.5.a: Statutory Grants [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.a: Statutory Grants"
+    },
+    {
+      "code": "9077",
+      "description": "II.D.5.b: Grants for relief on account of Natural Calamities [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.b: Grants for relief on account of Natural Calamities"
+    },
+    {
+      "code": "9078",
+      "description": "II.D.5.c.1: GST compensation [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.c.1: GST compensation"
+    },
+    {
+      "code": "9079",
+      "description": "II.D.5.c.2: VAT compensation [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.c.2: VAT compensation"
+    },
+    {
+      "code": "9080",
+      "description": "II.D.5.c.3: Central sales tax compensation [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.c.3: Central sales tax compensation"
+    },
+    {
+      "code": "9081",
+      "description": "II.D.5.c.4: Compensation cess (0009) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.c.4: Compensation cess (0009)"
+    },
+    {
+      "code": "9082",
+      "description": "II.D.5.c: Others [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.c: Others"
+    },
+    {
+      "code": "9083",
+      "description": "II.D.5.i: Post Devolution Revenue Deficit Grants [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.i: Post Devolution Revenue Deficit Grants"
+    },
+    {
+      "code": "9084",
+      "description": "II.D.5.ii: Grants for Rural Local Bodies [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.ii: Grants for Rural Local Bodies"
+    },
+    {
+      "code": "9085",
+      "description": "II.D.5.iii: Grants for Urban Local Bodies [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.iii: Grants for Urban Local Bodies"
+    },
+    {
+      "code": "9086",
+      "description": "II.D.5.iv: Grant in aid for State Disaster Response Fund [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.iv: Grant in aid for State Disaster Response Fund"
+    },
+    {
+      "code": "9087",
+      "description": "II.D.5.v: Others (including Health Sector Grants) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5.v: Others (including Health Sector Grants)"
+    },
+    {
+      "code": "9088",
+      "description": "II.D.5: Finance Commission Grants [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5: Finance Commission Grants"
+    },
+    {
+      "code": "9089",
+      "description": "II.D.5: Non-Plan Grants (a to c) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.5: Non-Plan Grants (a to c)"
+    },
+    {
+      "code": "9090",
+      "description": "II.D.6: Grants under proviso to Article 275(1) of the Constitution [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.6: Grants under proviso to Article 275(1) of the Constitution"
+    },
+    {
+      "code": "9091",
+      "description": "II.D.7.i: GST Compensation (1)# [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.7.i: GST Compensation (1)#"
+    },
+    {
+      "code": "9092",
+      "description": "II.D.7.ii: GST Compensation (2)# [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.7.ii: GST Compensation (2)#"
+    },
+    {
+      "code": "9093",
+      "description": "II.D.7: Other Grants [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D.7: Other Grants"
+    },
+    {
+      "code": "9094",
+      "description": "II.D: Grants from the Centre (1 to 7) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II.D: Grants from the Centre (1 to 7)"
+    },
+    {
+      "code": "9095",
+      "description": "II: NON-TAX REVENUE (C+D) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "II: NON-TAX REVENUE (C+D)"
+    },
+    {
+      "code": "9096",
+      "description": "Total: TOTAL REVENUE (I+II) [RBI Appendix-1]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-1",
+      "rbi_head": "Total: TOTAL REVENUE (I+II)"
+    },
+    {
+      "code": "9097",
+      "description": "I.A.10: Nutrition [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.10: Nutrition"
+    },
+    {
+      "code": "9098",
+      "description": "I.A.11: Relief on account of Natural  Calamities [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.11: Relief on account of Natural  Calamities"
+    },
+    {
+      "code": "9099",
+      "description": "I.A.12: Others* [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.12: Others*"
+    },
+    {
+      "code": "9100",
+      "description": "I.A.1: Education, Sports, Art and Culture [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.1: Education, Sports, Art and Culture"
+    },
+    {
+      "code": "9101",
+      "description": "I.A.2: Medical and Public Health [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.2: Medical and Public Health"
+    },
+    {
+      "code": "9102",
+      "description": "I.A.3: Family Welfare [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.3: Family Welfare"
+    },
+    {
+      "code": "9103",
+      "description": "I.A.4: Water Supply and Sanitation [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.4: Water Supply and Sanitation"
+    },
+    {
+      "code": "9104",
+      "description": "I.A.5: Housing [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.5: Housing"
+    },
+    {
+      "code": "9105",
+      "description": "I.A.6: Urban Development [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.6: Urban Development"
+    },
+    {
+      "code": "9106",
+      "description": "I.A.7: Welfare of Scheduled Castes, Scheduled Tribes  and Other Backward Classes [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.7: Welfare of Scheduled Castes, Scheduled Tribes  and Other Backward Classes"
+    },
+    {
+      "code": "9107",
+      "description": "I.A.8: Labour and Labour Welfare [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.8: Labour and Labour Welfare"
+    },
+    {
+      "code": "9108",
+      "description": "I.A.9: Social Security and Welfare [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A.9: Social Security and Welfare"
+    },
+    {
+      "code": "9109",
+      "description": "I.A: Social Services (1 to 12) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.A: Social Services (1 to 12)"
+    },
+    {
+      "code": "9110",
+      "description": "I.B.1.i: Crop Husbandry [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.i: Crop Husbandry"
+    },
+    {
+      "code": "9111",
+      "description": "I.B.1.ii: Soil and Water Conservation [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.ii: Soil and Water Conservation"
+    },
+    {
+      "code": "9112",
+      "description": "I.B.1.iii: Animal Husbandry [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.iii: Animal Husbandry"
+    },
+    {
+      "code": "9113",
+      "description": "I.B.1.iv: Dairy Development [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.iv: Dairy Development"
+    },
+    {
+      "code": "9114",
+      "description": "I.B.1.ix: Agricultural Research and Education [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.ix: Agricultural Research and Education"
+    },
+    {
+      "code": "9115",
+      "description": "I.B.1.v: Fisheries [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.v: Fisheries"
+    },
+    {
+      "code": "9116",
+      "description": "I.B.1.vi: Forestry and Wild Life [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.vi: Forestry and Wild Life"
+    },
+    {
+      "code": "9117",
+      "description": "I.B.1.vii: Plantations [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.vii: Plantations"
+    },
+    {
+      "code": "9118",
+      "description": "I.B.1.viii: Food Storage and Warehousing [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.viii: Food Storage and Warehousing"
+    },
+    {
+      "code": "9119",
+      "description": "I.B.1.x: Agricultural Finance Institutions [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.x: Agricultural Finance Institutions"
+    },
+    {
+      "code": "9120",
+      "description": "I.B.1.xi: Co-operation [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.xi: Co-operation"
+    },
+    {
+      "code": "9121",
+      "description": "I.B.1.xii: Other Agricultural Programmes [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1.xii: Other Agricultural Programmes"
+    },
+    {
+      "code": "9122",
+      "description": "I.B.1: Agriculture and Allied Activities (i to xii) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.1: Agriculture and Allied Activities (i to xii)"
+    },
+    {
+      "code": "9123",
+      "description": "I.B.2: Rural Development [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.2: Rural Development"
+    },
+    {
+      "code": "9124",
+      "description": "I.B.3: Special Area Programmes [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.3: Special Area Programmes"
+    },
+    {
+      "code": "9125",
+      "description": "I.B.4.i: Major and Medium Irrigation [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.4.i: Major and Medium Irrigation"
+    },
+    {
+      "code": "9126",
+      "description": "I.B.4.ii: Minor Irrigation [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.4.ii: Minor Irrigation"
+    },
+    {
+      "code": "9127",
+      "description": "I.B.4.iii: Flood Control and Drainage [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.4.iii: Flood Control and Drainage"
+    },
+    {
+      "code": "9128",
+      "description": "I.B.4: Irrigation and Flood Control [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.4: Irrigation and Flood Control"
+    },
+    {
+      "code": "9129",
+      "description": "I.B.5.0: of which: Power [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.5.0: of which: Power"
+    },
+    {
+      "code": "9130",
+      "description": "I.B.5: Energy [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.5: Energy"
+    },
+    {
+      "code": "9131",
+      "description": "I.B.6.i: Village and Small Industries [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.6.i: Village and Small Industries"
+    },
+    {
+      "code": "9132",
+      "description": "I.B.6.ii: Industries [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.6.ii: Industries"
+    },
+    {
+      "code": "9133",
+      "description": "I.B.6.iii: Others [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.6.iii: Others"
+    },
+    {
+      "code": "9134",
+      "description": "I.B.6: Industry and Minerals (i to iii) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.6: Industry and Minerals (i to iii)"
+    },
+    {
+      "code": "9135",
+      "description": "I.B.7.i: Roads and Bridges [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.7.i: Roads and Bridges"
+    },
+    {
+      "code": "9136",
+      "description": "I.B.7.ii: Others [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.7.ii: Others"
+    },
+    {
+      "code": "9137",
+      "description": "I.B.7: Transport and Communications (i + ii) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.7: Transport and Communications (i + ii)"
+    },
+    {
+      "code": "9138",
+      "description": "I.B.8: Science, Technology and Environment [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.8: Science, Technology and Environment"
+    },
+    {
+      "code": "9139",
+      "description": "I.B.9.i: Secretariat - Economic Services [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.9.i: Secretariat - Economic Services"
+    },
+    {
+      "code": "9140",
+      "description": "I.B.9.ii: Tourism [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.9.ii: Tourism"
+    },
+    {
+      "code": "9141",
+      "description": "I.B.9.iii: Civil Supplies [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.9.iii: Civil Supplies"
+    },
+    {
+      "code": "9142",
+      "description": "I.B.9.iv: Others [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.9.iv: Others"
+    },
+    {
+      "code": "9143",
+      "description": "I.B.9: General Economic Services (i to iv) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B.9: General Economic Services (i to iv)"
+    },
+    {
+      "code": "9144",
+      "description": "I.B: Economic Services (1 to 9) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I.B: Economic Services (1 to 9)"
+    },
+    {
+      "code": "9145",
+      "description": "I: DEVELOPMENTAL EXPENDITURE (A + B) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "I: DEVELOPMENTAL EXPENDITURE (A + B)"
+    },
+    {
+      "code": "9146",
+      "description": "II.A: Organs of State [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.A: Organs of State"
+    },
+    {
+      "code": "9147",
+      "description": "II.B.i: Collection of Taxes and Duties [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.B.i: Collection of Taxes and Duties"
+    },
+    {
+      "code": "9148",
+      "description": "II.B.ii: Other Fiscal Services [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.B.ii: Other Fiscal Services"
+    },
+    {
+      "code": "9149",
+      "description": "II.B.ii: Transfers to Road Fund, Education Cess Fund, etc. [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.B.ii: Transfers to Road Fund, Education Cess Fund, etc."
+    },
+    {
+      "code": "9150",
+      "description": "II.B: Fiscal Services (i + ii) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.B: Fiscal Services (i + ii)"
+    },
+    {
+      "code": "9151",
+      "description": "II.C.1: Appropriation for Reduction or Avoidance of Debt [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C.1: Appropriation for Reduction or Avoidance of Debt"
+    },
+    {
+      "code": "9152",
+      "description": "II.C.2.i: Interest on Loans from the Centre [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C.2.i: Interest on Loans from the Centre"
+    },
+    {
+      "code": "9153",
+      "description": "II.C.2.ii.a: Interest on Market Loans [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C.2.ii.a: Interest on Market Loans"
+    },
+    {
+      "code": "9154",
+      "description": "II.C.2.ii.b: Interest on NSSF [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C.2.ii.b: Interest on NSSF"
+    },
+    {
+      "code": "9155",
+      "description": "II.C.2.ii: Interest on Internal Debt [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C.2.ii: Interest on Internal Debt"
+    },
+    {
+      "code": "9156",
+      "description": "II.C.2.iii: Interest on Small Savings, State Provident Funds, etc. [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C.2.iii: Interest on Small Savings, State Provident Funds, etc."
+    },
+    {
+      "code": "9157",
+      "description": "II.C.2.iv: Others [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C.2.iv: Others"
+    },
+    {
+      "code": "9158",
+      "description": "II.C.2: Interest Payments (i to iv) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C.2: Interest Payments (i to iv)"
+    },
+    {
+      "code": "9159",
+      "description": "II.C: Interest Payments and Servicing of Debt (1 + 2) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.C: Interest Payments and Servicing of Debt (1 + 2)"
+    },
+    {
+      "code": "9160",
+      "description": "II.D.i: Secretariat - General Services [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.D.i: Secretariat - General Services"
+    },
+    {
+      "code": "9161",
+      "description": "II.D.ii: District Administration [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.D.ii: District Administration"
+    },
+    {
+      "code": "9162",
+      "description": "II.D.iii: Police [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.D.iii: Police"
+    },
+    {
+      "code": "9163",
+      "description": "II.D.iv: Public Works [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.D.iv: Public Works"
+    },
+    {
+      "code": "9164",
+      "description": "II.D.v: Others [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.D.v: Others"
+    },
+    {
+      "code": "9165",
+      "description": "II.D: Administrative Services (i to v) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.D: Administrative Services (i to v)"
+    },
+    {
+      "code": "9166",
+      "description": "II.E: Pensions [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.E: Pensions"
+    },
+    {
+      "code": "9167",
+      "description": "II.F.0: of which: Payment on account of State Lotteries [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.F.0: of which: Payment on account of State Lotteries"
+    },
+    {
+      "code": "9168",
+      "description": "II.F: Miscellaneous General Services [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II.F: Miscellaneous General Services"
+    },
+    {
+      "code": "9169",
+      "description": "II: NON-DEVELOPMENTAL EXPENDITURE (General Services) (A to F) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "II: NON-DEVELOPMENTAL EXPENDITURE (General Services) (A to F)"
+    },
+    {
+      "code": "9170",
+      "description": "III.0: Compensation and Assignments to Local Bodies and Panchayati Raj Institutions [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "III.0: Compensation and Assignments to Local Bodies and Panchayati Raj Institutions"
+    },
+    {
+      "code": "9171",
+      "description": "III: Grants-in-Aid and Contributions [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "III: Grants-in-Aid and Contributions"
+    },
+    {
+      "code": "9172",
+      "description": "IV: Reserve with Finance Department [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "IV: Reserve with Finance Department"
+    },
+    {
+      "code": "9173",
+      "description": "NA: NA [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "NA: NA"
+    },
+    {
+      "code": "9174",
+      "description": "Total: TOTAL EXPENDITURE (I+II+III) [RBI Appendix-2]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-2",
+      "rbi_head": "Total: TOTAL EXPENDITURE (I+II+III)"
+    },
+    {
+      "code": "9175",
+      "description": "I#: External Debt [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I#: External Debt"
+    },
+    {
+      "code": "9176",
+      "description": "I.1: Market Loans [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.1: Market Loans"
+    },
+    {
+      "code": "9177",
+      "description": "I.2: Loans from LIC [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.2: Loans from LIC"
+    },
+    {
+      "code": "9178",
+      "description": "I.3: Loans from National Bank for Agriculture and Rural Development [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.3: Loans from National Bank for Agriculture and Rural Development"
+    },
+    {
+      "code": "9179",
+      "description": "I.4: Loans from SBI and other Banks [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.4: Loans from SBI and other Banks"
+    },
+    {
+      "code": "9180",
+      "description": "I.5: Loans from National Co-operative Development Corporation [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.5: Loans from National Co-operative Development Corporation"
+    },
+    {
+      "code": "9181",
+      "description": "I.6: WMA from RBI [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.6: WMA from RBI"
+    },
+    {
+      "code": "9182",
+      "description": "I.7: Special Securities issued to NSSF [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.7: Special Securities issued to NSSF"
+    },
+    {
+      "code": "9183",
+      "description": "I.8.0: of which: Land Compensation and other [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.8.0: of which: Land Compensation and other"
+    },
+    {
+      "code": "9184",
+      "description": "I.8: Others (including 106) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I.8: Others (including 106)"
+    },
+    {
+      "code": "9185",
+      "description": "I: Internal Debt (1 to 8) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "I: Internal Debt (1 to 8)"
+    },
+    {
+      "code": "9186",
+      "description": "II.1.0: of which: Advance release of Plan Assistance for Natural Calamities [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.1.0: of which: Advance release of Plan Assistance for Natural Calamities"
+    },
+    {
+      "code": "9187",
+      "description": "II.1: State Plan Schemes [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.1: State Plan Schemes"
+    },
+    {
+      "code": "9188",
+      "description": "II.2: Central Plan Schemes [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.2: Central Plan Schemes"
+    },
+    {
+      "code": "9189",
+      "description": "II.3: Centrally Sponsored Schemes [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.3: Centrally Sponsored Schemes"
+    },
+    {
+      "code": "9190",
+      "description": "II.4.i: Share of Small Savings [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.4.i: Share of Small Savings"
+    },
+    {
+      "code": "9191",
+      "description": "II.4.ii: Relief for Natural Calamities [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.4.ii: Relief for Natural Calamities"
+    },
+    {
+      "code": "9192",
+      "description": "II.4.iii: Others [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.4.iii: Others"
+    },
+    {
+      "code": "9193",
+      "description": "II.4: Non-Plan (i to iii) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.4: Non-Plan (i to iii)"
+    },
+    {
+      "code": "9194",
+      "description": "II.5: Ways and Means Advances from Centre [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.5: Ways and Means Advances from Centre"
+    },
+    {
+      "code": "9195",
+      "description": "II.6: Loans for Special Schemes [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II.6: Loans for Special Schemes"
+    },
+    {
+      "code": "9196",
+      "description": "II: Loans and Advances from the Centre (1 to 8) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "II: Loans and Advances from the Centre (1 to 8)"
+    },
+    {
+      "code": "9197",
+      "description": "III.10: Road Transport [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.10: Road Transport"
+    },
+    {
+      "code": "9198",
+      "description": "III.11: Government Servants, etc. [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.11: Government Servants, etc."
+    },
+    {
+      "code": "9199",
+      "description": "III.12: Others [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.12: Others"
+    },
+    {
+      "code": "9200",
+      "description": "III.1: Housing [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.1: Housing"
+    },
+    {
+      "code": "9201",
+      "description": "III.2: Urban Development [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.2: Urban Development"
+    },
+    {
+      "code": "9202",
+      "description": "III.3: Crop Husbandry [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.3: Crop Husbandry"
+    },
+    {
+      "code": "9203",
+      "description": "III.4: Food Storage and Warehousing [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.4: Food Storage and Warehousing"
+    },
+    {
+      "code": "9204",
+      "description": "III.5: Co-operation [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.5: Co-operation"
+    },
+    {
+      "code": "9205",
+      "description": "III.6: Minor Irrigation [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.6: Minor Irrigation"
+    },
+    {
+      "code": "9206",
+      "description": "III.7: Power Projects [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.7: Power Projects"
+    },
+    {
+      "code": "9207",
+      "description": "III.8: Village and Small Industries [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.8: Village and Small Industries"
+    },
+    {
+      "code": "9208",
+      "description": "III.9: Industries and Minerals [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III.9: Industries and Minerals"
+    },
+    {
+      "code": "9209",
+      "description": "III: Recovery of Loans and Advances (1 to 12) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "III: Recovery of Loans and Advances (1 to 12)"
+    },
+    {
+      "code": "9210",
+      "description": "IV: Inter-State Settlement [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "IV: Inter-State Settlement"
+    },
+    {
+      "code": "9211",
+      "description": "IX.1: Suspense [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "IX.1: Suspense"
+    },
+    {
+      "code": "9212",
+      "description": "IX.2: Cash Balance Investment Accounts [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "IX.2: Cash Balance Investment Accounts"
+    },
+    {
+      "code": "9213",
+      "description": "IX.3: Deposits with RBI [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "IX.3: Deposits with RBI"
+    },
+    {
+      "code": "9214",
+      "description": "IX.4: Others [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "IX.4: Others"
+    },
+    {
+      "code": "9215",
+      "description": "IX: Suspense and Miscellaneous (1 to 4) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "IX: Suspense and Miscellaneous (1 to 4)"
+    },
+    {
+      "code": "9216",
+      "description": "V: Contingency Fund [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "V: Contingency Fund"
+    },
+    {
+      "code": "9217",
+      "description": "VI.1: State Provident Funds [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VI.1: State Provident Funds"
+    },
+    {
+      "code": "9218",
+      "description": "VI.2: Others [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VI.2: Others"
+    },
+    {
+      "code": "9219",
+      "description": "VI: State Provident Funds, etc. (1 + 2) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VI: State Provident Funds, etc. (1 + 2)"
+    },
+    {
+      "code": "9220",
+      "description": "VII.1: Depreciation/Renewal Reserve Funds [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VII.1: Depreciation/Renewal Reserve Funds"
+    },
+    {
+      "code": "9221",
+      "description": "VII.2: Sinking Funds [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VII.2: Sinking Funds"
+    },
+    {
+      "code": "9222",
+      "description": "VII.3: Famine Relief Fund [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VII.3: Famine Relief Fund"
+    },
+    {
+      "code": "9223",
+      "description": "VII.4: Others [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VII.4: Others"
+    },
+    {
+      "code": "9224",
+      "description": "VII: Reserve Funds (1 to 4) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VII: Reserve Funds (1 to 4)"
+    },
+    {
+      "code": "9225",
+      "description": "VIII.1: Civil Deposits [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VIII.1: Civil Deposits"
+    },
+    {
+      "code": "9226",
+      "description": "VIII.2: Deposits of Local Funds [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VIII.2: Deposits of Local Funds"
+    },
+    {
+      "code": "9227",
+      "description": "VIII.3: Civil Advances [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VIII.3: Civil Advances"
+    },
+    {
+      "code": "9228",
+      "description": "VIII.4: Others [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VIII.4: Others"
+    },
+    {
+      "code": "9229",
+      "description": "VIII: Deposits and Advances (1 to 4) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "VIII: Deposits and Advances (1 to 4)"
+    },
+    {
+      "code": "9230",
+      "description": "X: Appropriation to Contingency Fund [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "X: Appropriation to Contingency Fund"
+    },
+    {
+      "code": "9231",
+      "description": "XI.0: of which: Disinvestment [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "XI.0: of which: Disinvestment"
+    },
+    {
+      "code": "9232",
+      "description": "XI: Miscellaneous Capital Receipts [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "XI: Miscellaneous Capital Receipts"
+    },
+    {
+      "code": "9233",
+      "description": "XII: Remittances [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "XII: Remittances"
+    },
+    {
+      "code": "9234",
+      "description": "total*: TOTAL CAPITAL RECEIPTS (Includes Public Accounts on a net basis)* [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "total*: TOTAL CAPITAL RECEIPTS (Includes Public Accounts on a net basis)*"
+    },
+    {
+      "code": "9235",
+      "description": "total: TOTAL CAPITAL RECEIPTS (I to XII) [RBI Appendix-3]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-3",
+      "rbi_head": "total: TOTAL CAPITAL RECEIPTS (I to XII)"
+    },
+    {
+      "code": "9236",
+      "description": "A: Surplus (+)/Deficit (-) on Revenue Account [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "A: Surplus (+)/Deficit (-) on Revenue Account"
+    },
+    {
+      "code": "9237",
+      "description": "B: Surplus (+)/Deficit(-) on Capital Account [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "B: Surplus (+)/Deficit(-) on Capital Account"
+    },
+    {
+      "code": "9238",
+      "description": "C: Overall Surplus (+)/Deficit (-) (A+B) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "C: Overall Surplus (+)/Deficit (-) (A+B)"
+    },
+    {
+      "code": "9239",
+      "description": "D: Financing of Surplus (+)/Deficit (-) (C = i to iii) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "D: Financing of Surplus (+)/Deficit (-) (C = i to iii)"
+    },
+    {
+      "code": "9240",
+      "description": "I.1.a.1: Education, Sports, Art and Culture [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.1: Education, Sports, Art and Culture"
+    },
+    {
+      "code": "9241",
+      "description": "I.1.a.2: Medical and Public Health [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.2: Medical and Public Health"
+    },
+    {
+      "code": "9242",
+      "description": "I.1.a.3: Family Welfare [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.3: Family Welfare"
+    },
+    {
+      "code": "9243",
+      "description": "I.1.a.4: Water Supply and Sanitation [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.4: Water Supply and Sanitation"
+    },
+    {
+      "code": "9244",
+      "description": "I.1.a.5: Housing [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.5: Housing"
+    },
+    {
+      "code": "9245",
+      "description": "I.1.a.6: Urban Development [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.6: Urban Development"
+    },
+    {
+      "code": "9246",
+      "description": "I.1.a.7: Welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.7: Welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes"
+    },
+    {
+      "code": "9247",
+      "description": "I.1.a.8: Social Security and Welfare [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.8: Social Security and Welfare"
+    },
+    {
+      "code": "9248",
+      "description": "I.1.a.9: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a.9: Others"
+    },
+    {
+      "code": "9249",
+      "description": "I.1.a: Social Services (1 to 9) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.a: Social Services (1 to 9)"
+    },
+    {
+      "code": "9250",
+      "description": "I.1.b.1.i: Crop Husbandry [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.i: Crop Husbandry"
+    },
+    {
+      "code": "9251",
+      "description": "I.1.b.1.ii: Soil and Water Conservation [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.ii: Soil and Water Conservation"
+    },
+    {
+      "code": "9252",
+      "description": "I.1.b.1.iii: Animal Husbandry [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.iii: Animal Husbandry"
+    },
+    {
+      "code": "9253",
+      "description": "I.1.b.1.iv: Dairy Development [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.iv: Dairy Development"
+    },
+    {
+      "code": "9254",
+      "description": "I.1.b.1.ix: Agricultural Research and Education [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.ix: Agricultural Research and Education"
+    },
+    {
+      "code": "9255",
+      "description": "I.1.b.1.v: Fisheries [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.v: Fisheries"
+    },
+    {
+      "code": "9256",
+      "description": "I.1.b.1.vi: Forestry and Wild Life [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.vi: Forestry and Wild Life"
+    },
+    {
+      "code": "9257",
+      "description": "I.1.b.1.vii: Plantations [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.vii: Plantations"
+    },
+    {
+      "code": "9258",
+      "description": "I.1.b.1.viii: Food Storage and Warehousing [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.viii: Food Storage and Warehousing"
+    },
+    {
+      "code": "9259",
+      "description": "I.1.b.1.x: Co-operation [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.x: Co-operation"
+    },
+    {
+      "code": "9260",
+      "description": "I.1.b.1.xi: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1.xi: Others"
+    },
+    {
+      "code": "9261",
+      "description": "I.1.b.10.i: Tourism [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.10.i: Tourism"
+    },
+    {
+      "code": "9262",
+      "description": "I.1.b.10.ii: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.10.ii: Others"
+    },
+    {
+      "code": "9263",
+      "description": "I.1.b.10: General Economic Services (i + ii) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.10: General Economic Services (i + ii)"
+    },
+    {
+      "code": "9264",
+      "description": "I.1.b.1: Agriculture and Allied Activities (i to xi) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.1: Agriculture and Allied Activities (i to xi)"
+    },
+    {
+      "code": "9265",
+      "description": "I.1.b.2: Rural Development [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.2: Rural Development"
+    },
+    {
+      "code": "9266",
+      "description": "I.1.b.3.0: of which: Hill Areas [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.3.0: of which: Hill Areas"
+    },
+    {
+      "code": "9267",
+      "description": "I.1.b.3: Special Area Programmes [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.3: Special Area Programmes"
+    },
+    {
+      "code": "9268",
+      "description": "I.1.b.4: Irrigation and Flood Control [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.4: Irrigation and Flood Control"
+    },
+    {
+      "code": "9269",
+      "description": "I.1.b.5: Energy [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.5: Energy"
+    },
+    {
+      "code": "9270",
+      "description": "I.1.b.6.i: Village and Small Industries [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.6.i: Village and Small Industries"
+    },
+    {
+      "code": "9271",
+      "description": "I.1.b.6.ii: Iron and Steel Industries [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.6.ii: Iron and Steel Industries"
+    },
+    {
+      "code": "9272",
+      "description": "I.1.b.6.iii: Non-Ferrous Mining and Metallurgical Industries [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.6.iii: Non-Ferrous Mining and Metallurgical Industries"
+    },
+    {
+      "code": "9273",
+      "description": "I.1.b.6.iv: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.6.iv: Others"
+    },
+    {
+      "code": "9274",
+      "description": "I.1.b.6: Industry and Minerals (i to iv) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.6: Industry and Minerals (i to iv)"
+    },
+    {
+      "code": "9275",
+      "description": "I.1.b.7.i: Roads and Bridges [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.7.i: Roads and Bridges"
+    },
+    {
+      "code": "9276",
+      "description": "I.1.b.7.ii: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.7.ii: Others"
+    },
+    {
+      "code": "9277",
+      "description": "I.1.b.7: Transport (i + ii) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.7: Transport (i + ii)"
+    },
+    {
+      "code": "9278",
+      "description": "I.1.b.8: Communications [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.8: Communications"
+    },
+    {
+      "code": "9279",
+      "description": "I.1.b.9: Science, Technology and Environment [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b.9: Science, Technology and Environment"
+    },
+    {
+      "code": "9280",
+      "description": "I.1.b: Economic Services (1 to 10) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1.b: Economic Services (1 to 10)"
+    },
+    {
+      "code": "9281",
+      "description": "I.1: Development (a + b) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.1: Development (a + b)"
+    },
+    {
+      "code": "9282",
+      "description": "I.2: Non-Development (General Services) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I.2: Non-Development (General Services)"
+    },
+    {
+      "code": "9283",
+      "description": "I: Total Capital Outlay (1 + 2) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "I: Total Capital Outlay (1 + 2)"
+    },
+    {
+      "code": "9284",
+      "description": "II.1: Market Loans [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.1: Market Loans"
+    },
+    {
+      "code": "9285",
+      "description": "II.2: Loans from LIC [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.2: Loans from LIC"
+    },
+    {
+      "code": "9286",
+      "description": "II.3: Loans from National Bank for Agriculture and Rural Development [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.3: Loans from National Bank for Agriculture and Rural Development"
+    },
+    {
+      "code": "9287",
+      "description": "II.3: Loans from SBI and other Banks [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.3: Loans from SBI and other Banks"
+    },
+    {
+      "code": "9288",
+      "description": "II.5: Loans from National Co-operative Development Corporation [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.5: Loans from National Co-operative Development Corporation"
+    },
+    {
+      "code": "9289",
+      "description": "II.6: WMA from RBI [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.6: WMA from RBI"
+    },
+    {
+      "code": "9290",
+      "description": "II.7: Special Securities issued to NSSF [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.7: Special Securities issued to NSSF"
+    },
+    {
+      "code": "9291",
+      "description": "II.8.0: of which: Land Compensation Bonds [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.8.0: of which: Land Compensation Bonds"
+    },
+    {
+      "code": "9292",
+      "description": "II.8: Others (including 106) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II.8: Others (including 106)"
+    },
+    {
+      "code": "9293",
+      "description": "II: Discharge of Internal Debt (1 to 8) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "II: Discharge of Internal Debt (1 to 8)"
+    },
+    {
+      "code": "9294",
+      "description": "III.1.0: of which: Advance release of Plan Assistance for Natural Calamities [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.1.0: of which: Advance release of Plan Assistance for Natural Calamities"
+    },
+    {
+      "code": "9295",
+      "description": "III.1: State Plan Schemes [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.1: State Plan Schemes"
+    },
+    {
+      "code": "9296",
+      "description": "III.2: Central Plan Schemes [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.2: Central Plan Schemes"
+    },
+    {
+      "code": "9297",
+      "description": "III.3: Centrally Sponsored Schemes [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.3: Centrally Sponsored Schemes"
+    },
+    {
+      "code": "9298",
+      "description": "III.4.i: Relief for Natural Calamities [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.4.i: Relief for Natural Calamities"
+    },
+    {
+      "code": "9299",
+      "description": "III.4.ii: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.4.ii: Others"
+    },
+    {
+      "code": "9300",
+      "description": "III.4: Non-Plan Loans [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.4: Non-Plan Loans"
+    },
+    {
+      "code": "9301",
+      "description": "III.5: Ways and Means Advances from Centre [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.5: Ways and Means Advances from Centre"
+    },
+    {
+      "code": "9302",
+      "description": "III.6: Loans for Special Schemes [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.6: Loans for Special Schemes"
+    },
+    {
+      "code": "9303",
+      "description": "III.7: Other Loans for States/Union Territories with legislature schemes [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III.7: Other Loans for States/Union Territories with legislature schemes"
+    },
+    {
+      "code": "9304",
+      "description": "III: Repayment of Loans to the Centre (1 to 7) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "III: Repayment of Loans to the Centre (1 to 7)"
+    },
+    {
+      "code": "9305",
+      "description": "IV.1.a.1: Education, Sports, Art and Culture [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.a.1: Education, Sports, Art and Culture"
+    },
+    {
+      "code": "9306",
+      "description": "IV.1.a.2: Medical and Public Health [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.a.2: Medical and Public Health"
+    },
+    {
+      "code": "9307",
+      "description": "IV.1.a.3: Family Welfare [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.a.3: Family Welfare"
+    },
+    {
+      "code": "9308",
+      "description": "IV.1.a.4: Water Supply and Sanitation [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.a.4: Water Supply and Sanitation"
+    },
+    {
+      "code": "9309",
+      "description": "IV.1.a.5: Housing [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.a.5: Housing"
+    },
+    {
+      "code": "9310",
+      "description": "IV.1.a.6: Government Servants (Housing) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.a.6: Government Servants (Housing)"
+    },
+    {
+      "code": "9311",
+      "description": "IV.1.a.7: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.a.7: Others"
+    },
+    {
+      "code": "9312",
+      "description": "IV.1.a: Social Services ( 1 to 7) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.a: Social Services ( 1 to 7)"
+    },
+    {
+      "code": "9313",
+      "description": "IV.1.b.10: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.10: Others"
+    },
+    {
+      "code": "9314",
+      "description": "IV.1.b.1: Crop Husbandry [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.1: Crop Husbandry"
+    },
+    {
+      "code": "9315",
+      "description": "IV.1.b.2: Soil and Water Conservation [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.2: Soil and Water Conservation"
+    },
+    {
+      "code": "9316",
+      "description": "IV.1.b.3: Food Storage and Warehousing [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.3: Food Storage and Warehousing"
+    },
+    {
+      "code": "9317",
+      "description": "IV.1.b.4: Co-operation [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.4: Co-operation"
+    },
+    {
+      "code": "9318",
+      "description": "IV.1.b.5: Major and Medium Irrigation, etc. [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.5: Major and Medium Irrigation, etc."
+    },
+    {
+      "code": "9319",
+      "description": "IV.1.b.6: Power Projects [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.6: Power Projects"
+    },
+    {
+      "code": "9320",
+      "description": "IV.1.b.7: Village and Small Industries [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.7: Village and Small Industries"
+    },
+    {
+      "code": "9321",
+      "description": "IV.1.b.8: Other Industries and Minerals [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.8: Other Industries and Minerals"
+    },
+    {
+      "code": "9322",
+      "description": "IV.1.b.9: Rural Development [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b.9: Rural Development"
+    },
+    {
+      "code": "9323",
+      "description": "IV.1.b: Economic Services (1 to 10) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1.b: Economic Services (1 to 10)"
+    },
+    {
+      "code": "9324",
+      "description": "IV.1: Development Purposes (a + b) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.1: Development Purposes (a + b)"
+    },
+    {
+      "code": "9325",
+      "description": "IV.2.a: Government Servants (other than Housing) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.2.a: Government Servants (other than Housing)"
+    },
+    {
+      "code": "9326",
+      "description": "IV.2.b: Miscellaneous [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.2.b: Miscellaneous"
+    },
+    {
+      "code": "9327",
+      "description": "IV.2: Non-Development Purposes (a + b) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV.2: Non-Development Purposes (a + b)"
+    },
+    {
+      "code": "9328",
+      "description": "IV: Loans and Advances by State Governments (1+2) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IV: Loans and Advances by State Governments (1+2)"
+    },
+    {
+      "code": "9329",
+      "description": "IX.1: Civil Deposits [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IX.1: Civil Deposits"
+    },
+    {
+      "code": "9330",
+      "description": "IX.2: Deposits of Local Funds [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IX.2: Deposits of Local Funds"
+    },
+    {
+      "code": "9331",
+      "description": "IX.3: Civil Advances [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IX.3: Civil Advances"
+    },
+    {
+      "code": "9332",
+      "description": "IX.4: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IX.4: Others"
+    },
+    {
+      "code": "9333",
+      "description": "IX: Deposits and Advances (1 to 4) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "IX: Deposits and Advances (1 to 4)"
+    },
+    {
+      "code": "9334",
+      "description": "Total$: TOTAL CAPITAL DISBURSEMENTS (Excluding Public Accounts) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "Total$: TOTAL CAPITAL DISBURSEMENTS (Excluding Public Accounts)"
+    },
+    {
+      "code": "9335",
+      "description": "Total: TOTAL CAPITAL DISBURSEMENTS (I to XII) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "Total: TOTAL CAPITAL DISBURSEMENTS (I to XII)"
+    },
+    {
+      "code": "9336",
+      "description": "V: Inter-State Settlement [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "V: Inter-State Settlement"
+    },
+    {
+      "code": "9337",
+      "description": "VI: Contingency Fund [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VI: Contingency Fund"
+    },
+    {
+      "code": "9338",
+      "description": "VII.1: State Provident Funds [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VII.1: State Provident Funds"
+    },
+    {
+      "code": "9339",
+      "description": "VII.2: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VII.2: Others"
+    },
+    {
+      "code": "9340",
+      "description": "VII: State Provident Funds, etc. (1+2) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VII: State Provident Funds, etc. (1+2)"
+    },
+    {
+      "code": "9341",
+      "description": "VIII.1: Depreciation/Renewal Reserve Funds [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VIII.1: Depreciation/Renewal Reserve Funds"
+    },
+    {
+      "code": "9342",
+      "description": "VIII.2: Sinking Funds [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VIII.2: Sinking Funds"
+    },
+    {
+      "code": "9343",
+      "description": "VIII.3: Famine Relief Fund [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VIII.3: Famine Relief Fund"
+    },
+    {
+      "code": "9344",
+      "description": "VIII.4: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VIII.4: Others"
+    },
+    {
+      "code": "9345",
+      "description": "VIII: Reserve Funds (1 to 4) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "VIII: Reserve Funds (1 to 4)"
+    },
+    {
+      "code": "9346",
+      "description": "X.1: Suspense [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "X.1: Suspense"
+    },
+    {
+      "code": "9347",
+      "description": "X.2: Cash Balance Investment Accounts [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "X.2: Cash Balance Investment Accounts"
+    },
+    {
+      "code": "9348",
+      "description": "X.3: Deposits with RBI [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "X.3: Deposits with RBI"
+    },
+    {
+      "code": "9349",
+      "description": "X.4: Others [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "X.4: Others"
+    },
+    {
+      "code": "9350",
+      "description": "X: Suspense and Miscellaneous (1 to 4) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "X: Suspense and Miscellaneous (1 to 4)"
+    },
+    {
+      "code": "9351",
+      "description": "XI: Appropriation to Contingency Fund [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "XI: Appropriation to Contingency Fund"
+    },
+    {
+      "code": "9352",
+      "description": "XII: Remittances [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "XII: Remittances"
+    },
+    {
+      "code": "9353",
+      "description": "i.a: Opening Balance [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "i.a: Opening Balance"
+    },
+    {
+      "code": "9354",
+      "description": "i.b: Closing Balance [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "i.b: Closing Balance"
+    },
+    {
+      "code": "9355",
+      "description": "i: Increase (+)/Decrease (-) in Cash Balances [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "i: Increase (+)/Decrease (-) in Cash Balances"
+    },
+    {
+      "code": "9356",
+      "description": "ii: Withdrawals from (-)/Additions to (+) Cash Balance Investment Account (net) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "ii: Withdrawals from (-)/Additions to (+) Cash Balance Investment Account (net)"
+    },
+    {
+      "code": "9357",
+      "description": "iii: Increase (-)/Decrease (+) in Ways and Means Advances and Overdrafts from RBI (net) [RBI Appendix-4]",
+      "section": "rbi_synthetic",
+      "rbi_appendix": "Appendix-4",
+      "rbi_head": "iii: Increase (-)/Decrease (+) in Ways and Means Advances and Overdrafts from RBI (net)"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "source": "Curated by FinanceOS, see spec/MAJOR_HEADS.md §Mapping to Functional Categories.",
+  "notes": "These mappings are opinionated. Definitions of 'subsidy' and 'social welfare' vary by analyst. Some heads (e.g. 2049 Interest Payments) appear in only one category here even though debt servicing economics could classify them elsewhere.",
+  "functional_categories": [
+    {"category": "health", "major_head_codes": ["2210", "2211", "4210"]},
+    {"category": "education", "major_head_codes": ["2202", "4202"]},
+    {"category": "social_welfare", "major_head_codes": ["2235", "2245"]},
+    {"category": "roads_and_transport", "major_head_codes": ["3054", "3055", "5054", "5055"]},
+    {"category": "irrigation", "major_head_codes": ["2702", "2705", "4700", "4701", "4702"]},
+    {"category": "power", "major_head_codes": ["2801", "4801"]},
+    {"category": "agriculture", "major_head_codes": ["2401", "2415", "4401"]},
+    {"category": "urban_development", "major_head_codes": ["2217", "4217"]},
+    {"category": "housing", "major_head_codes": ["2216"]},
+    {"category": "water_and_sanitation", "major_head_codes": ["2215", "4215"]},
+    {"category": "pensions", "major_head_codes": ["2071"]},
+    {"category": "interest_payments", "major_head_codes": ["2049"]},
+    {"category": "general_admin", "major_head_codes": ["2011", "2014", "2015", "2055"]},
+    {"category": "industries", "major_head_codes": ["2851", "2852"]},
+    {"category": "own_tax_revenue", "major_head_codes": ["0029", "0030", "0039", "0040", "0041", "0042", "0045"]},
+    {"category": "central_transfers_grants", "major_head_codes": ["1601"]},
+    {"category": "non_tax_revenue", "major_head_codes": ["0049", "0050", "0070", "0075"]},
+    {"category": "public_debt", "major_head_codes": ["6003", "6004"]}
+  ]
+}

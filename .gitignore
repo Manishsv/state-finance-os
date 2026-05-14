@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# FinanceOS data — raw downloads and generated outputs are not checked in
+data/raw/**
+data/processed/**
+data/budgets/*.sqlite
+data/budgets/*.sqlite-wal
+data/budgets/*.sqlite-shm
+reports/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/budgets/.gitkeep
+!reports/.gitkeep
+
+# Logs
+logs/
+*.log
